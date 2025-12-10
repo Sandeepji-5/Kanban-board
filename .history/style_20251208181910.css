@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+:root {
+    --bg-color: #0000000;
+    --bg-button-color: red 
+    --primary-text-color: #f4f4f4;
+
+    /* padding 1 rem 2 rem */
+    --nav-padding: 15px 30px;
+    --section-padding: 15px 30px;
+    --padding-s: 5px;
+    --padding-m: 10px;
+    --padding-l: 15px;
+    --padding-xl: 20px;
+    --padding-xxl: 30px;
+
+
+    /* border radius variable  */
+    
+    
+    
+    --border-radius-s:5px;
+    --border-radius-m:10px;
+    --border-radius-l:15px;
+    --border-radius-xl:20px;
+    --border-radius-xxl:30px;
+
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+main{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(133, 195, 41);
+
+}
+
+nav{
+    padding: var(--nav-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: var(  --padding-m) var(  --padding-l);
+    cursor: pointer;
+    border-radius:var(--border-radius-m) ;
+
+}
+
+
+section{
+    padding:var(--section-padding);
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    background-color: blue;
+
+}
+section .task-column{
+    padding: var(--padding-m);
+    background-color: red;
+   
+}
+
+

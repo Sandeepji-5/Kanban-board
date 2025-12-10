@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+:root {
+    --bg-color: #0000000;
+    --bg-button-color:#lalala
+    --primary-text-color: #f4f4f4;
+
+    /* padding 1 rem 2 rem */
+    --nav-padding: 15px 30px;
+    --section-padding: 15px 30px;
+    --padding-s: 5px;
+    --padding-m: 10px;
+    --padding-l: 15px;
+    --padding-xl: 20px;
+    --padding-xxl: 30px;
+
+
+
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav{
+    padding: var(--nav-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav button{
+    background-color: var(--bg-button-color);
+    color: white;
+    
+
+}
